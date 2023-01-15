@@ -1,0 +1,96 @@
+/* Configuração Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #1e1e1e;
+}
+
+/* Logo */
+
+#logoDNC {
+  margin-left: 5.5rem;
+  margin-top: 4.2rem;
+}
+
+/* Cabeçalho */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > img {
+  width: 31.1rem;
+  height: 7.4rem;
+  margin-bottom: 3.4rem;
+}
+
+header > h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: "Helvetica";
+  margin-bottom: 3.4rem;
+}
+
+/* Formulário/Inputs */
+
+form {
+  font-family: "Raleway";
+  width: 52.4rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  margin-left: -26.2rem;
+}
+
+form > label {
+  color: white;
+  font-size: 2rem;
+  margin-top: 2.1rem;
+}
+
+form > input {
+  width: 51.4rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  border: none;
+}
+
+.btn {
+  width: 52.4rem;
+  height: 4.8rem;
+  border-radius: 0.6rem;
+  margin-top: 2.1rem;
+  background-color: #0c70f2;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: white;
+  border: none;
+}
+
+.msgName,
+.msgValidaEmail,
+.msgPhone,
+.msgCPF,
+.msgPassword {
+  color: #e73550;
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+.msgGeneral {
+  color: #e73550;
+  margin-top: 0.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
